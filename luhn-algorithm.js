@@ -9,9 +9,12 @@ function makeOneDigit(number) {
   return number - 9;
 }
 
+// a function that returns true if a given number has 11 numbers
 function isNumberLength_11(array) {
   return array.length === 11;
 }
+
+// a function that checks if a given number is valid, ie, final result is equal to zero
 function check(number) {
   var numberArray = number.toString().split("");
   var sum = 0;
